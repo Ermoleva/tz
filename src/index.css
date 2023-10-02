@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.cards__wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 30px auto 0;
+}
+.button__add{
+  display: block;
+  margin: 0 0 0 auto;
+  background-color: green;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 10px 0;
+  width: 50px;
+}
+.timer{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  border: #000 1px solid;
+  border-radius: 20px;
+  padding: 10px;
+  width:fit-content;
+}
+.timer__buttons{
+  display: flex;
+  
+}
+.timer__wrapper{
+  padding: 0 20px;
+}
+
+.timer__button{
+  border: none;
+  background-color:  transparent;
+  cursor: pointer;
+  padding: 0 10px;
+}
+.timer__button svg{
+  width: 20px;
+  height: 20px;
+}
+.timer__input{
+  width: 30px;
+  text-align: center;
+  border: none;
+}
+.timer__time{
+  display: flex;
+}
